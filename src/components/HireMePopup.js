@@ -91,8 +91,8 @@ class HireMePopup extends React.Component {
           </Burger>
           <t.H3>Contact me on</t.H3>
           <Link primary bold
-            target="_blank"
-            href="https://www.linkedin.com/">
+            target="https://www.linkedin.com/in/vikas-dubey-a58b97194/"
+            href="https://www.linkedin.com/in/vikas-dubey-a58b97194/">
             <img src={LN} alt="Your Linkedin profile" />
           </Link>
         </ContentWrapper>
