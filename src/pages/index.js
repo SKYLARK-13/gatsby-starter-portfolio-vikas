@@ -186,33 +186,45 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
+                <t.H2 bold>LinkedIn Clone</t.H2>
+                <t.P>LinkedIn clone created using react and redux, redux is used to create a data layer around the react.</t.P>
+                <t.P>This web app has database and hosting in firebase. It consist of core functionality of creating post and viewing the posts from other users also. User can signIn or signUp with email and password.</t.P>
                 <LinkButton primary bold className="link" as="a"
-                  target="_blank"
-                  href="#">
-                  Lorem ipsum
+                  target="https://linkedin-clone-5e3e3.web.app/"
+                  href="https://linkedin-clone-5e3e3.web.app/">
+                  Live Demo
+                </LinkButton>
+ <t.P></t.P>
+                <LinkButton primary bold className="link" as="a"
+                  target="https://github.com/SKYLARK-13/LinkedIn-clone"
+                  href="https://github.com/SKYLARK-13/LinkedIn-clone">
+                  Github Code
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src="https://firebasestorage.googleapis.com/v0/b/facebook-clone-c99ad.appspot.com/o/linkedin.jpg?alt=media&token=9b7ff7be-0d0e-434e-bb83-1412e38d4786" alt="Placeholder title" />
               </DivWrapper>
             </BlockContent>
           </Block>
           <Block>
             <BlockContent>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src="https://firebasestorage.googleapis.com/v0/b/facebook-clone-c99ad.appspot.com/o/venture.jpg?alt=media&token=8acd5b0e-8b74-43a5-b8a6-41aea6acdf81" alt="Placeholder title" />
               </DivWrapper>
               <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
+                <t.H2 bold>Venture Tshirt Store (MERN)</t.H2>
+                <t.P>A Tshirt store developed using MERN stack with Bootstrap 5 have all the basic functionalities like adding product to cart, removing from cart and purchasing.</t.P>
+                <t.P>The website has databse in mongodb for users and products, It is full comprised with CRUD operations, The website has admin section which allows admin to perform various operations available. To use website user can simply create account</t.P>
                 <LinkButton primary bold className="link" as="a"
-                  target="_blank"
-                  href="#">
-                  Lorem ipsum
+                  target="https://venturetshirt.netlify.app/"
+                  href="https://venturetshirt.netlify.app/">
+                  Live Demo
+                </LinkButton>
+<t.P></t.P>
+                <LinkButton primary bold className="link" as="a"
+                  target="https://github.com/SKYLARK-13/venture-mern-client"
+                  href="https://github.com/SKYLARK-13/venture-mern-client">
+                  Github Code
                 </LinkButton>
               </DivWrapper>
             </BlockContent>
@@ -220,17 +232,24 @@ class Homepage extends React.Component {
           <Block>
             <BlockContent>
               <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
+                <t.H2 bold>Airbnb Clone</t.H2>
+                <t.P>Airbnb clone made with React.js, The website is designed by material UI and react components.</t.P>
+                <t.P>With search date component and listing of available nearby places this is under developing clone with major completed part of Frontend.</t.P>
                 <LinkButton primary bold className="link" as="a"
-                  target="_blank"
-                  href="#">
-                  Lorem ipsum
+                  target="https://airbnb-clone-1fbb3.web.app/"
+                  href="https://airbnb-clone-1fbb3.web.app/">
+                  Live Demo
+                </LinkButton>
+
+<t.P></t.P>
+                <LinkButton primary bold className="link" as="a"
+                  target="https://github.com/SKYLARK-13/airbnb-clone"
+                  href="https://github.com/SKYLARK-13/airbnb-clone">
+                  Github Code
                 </LinkButton>
               </DivWrapper>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src="https://firebasestorage.googleapis.com/v0/b/facebook-clone-c99ad.appspot.com/o/airbnb.jpg?alt=media&token=4197362c-f01d-4c18-997b-c7d3f0480f7f" alt="Placeholder title" />
               </DivWrapper>
             </BlockContent>
           </Block>
