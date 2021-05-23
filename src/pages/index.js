@@ -144,41 +144,41 @@ class Homepage extends React.Component {
       <HomepageWrapper>
         <Layout theme="white" bigFooter openContactPopup={this.openContactPopup}>
           <AboveFold>
-            <Img fluid={data.avatarHomepage.childImageSharp.fluid} alt="Name Surname" className="avatar" />
+            <Img fluid={data.avatarHomepage.childImageSharp.fluid} alt="Vikas Dubey" className="avatar" />
             <t.H1 primary align="center">
-              Name Surname
+              Vikas Dubey
             </t.H1>
             <t.LargeP align="center" max45>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            I’m a fullstack web developer and I always find myself building new things and exploring new technologies, Proficient in developing databases, creating user interfaces, debugging complex/simple issues.
             </t.LargeP>
             <HireMe large onClick={this.openContactPopup} book>
               Hire me
             </HireMe>
           </AboveFold>
           <Content>
-            <t.H2 primary align="center" bold>
-              Lorem ipsum
-            </t.H2>
-            <t.P align="center" max70 className="who-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </t.P>
             <t.H2 primary align="center" bold className="portfolio">
-              Portfolio
+              Projects
             </t.H2>
           </Content>
           <Block>
             <BlockContent>
               <DivWrapper>
-                <ItemImage src={Placeholder} alt="Placeholder title" />
+                <ItemImage src="https://firebasestorage.googleapis.com/v0/b/facebook-clone-c99ad.appspot.com/o/facebook.jpg?alt=media&token=c5ff82bd-9a14-4d30-b050-73db31da3537" alt="Placeholder title" />
               </DivWrapper>
               <DivWrapper>
-                <t.H2 bold>Placeholder website</t.H2>
-                <t.P>Lorem ipsum</t.P>
-                <t.P>Dolor sit amet</t.P>
+                <t.H2 bold>Facebook Clone</t.H2>
+                <t.P>Facebook clone with amazing user interface created by create-react-app, web app with google authentication process.</t.P>
+                <t.P>This web app has database and hosting in firebase, It consist of core functionality of creating post with images of all formats and viewing the posts from other users also, User can directly signIn with the google account.</t.P>
                 <LinkButton primary bold className="link" as="a"
-                  target="_blank"
-                  href="#">
-                  Lorem ipsum
+                  target="https://facebook-clone-c99ad.web.app/"
+                  href="https://facebook-clone-c99ad.web.app/">
+                  Live Demo
+                </LinkButton>
+                <t.P></t.P>
+                <LinkButton primary bold className="link" as="a"
+                  target="https://github.com/SKYLARK-13/Facebook-clone"
+                  href="https://github.com/SKYLARK-13/Facebook-clone">
+                  Github Code
                 </LinkButton>
               </DivWrapper>
             </BlockContent>
