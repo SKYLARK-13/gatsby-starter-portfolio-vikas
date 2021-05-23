@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="https://www.linkedin.com/in/miloslekovic/">
-    <img alt="Milos Lekovic" src="src/images/favicon.ico" width="60" />
-  </a>
+  
 </p>
 <h1 align="center">
   Portfolio website built in Gatsby
